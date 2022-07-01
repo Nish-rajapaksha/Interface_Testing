@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="WhoContext" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.WhoFormController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="900.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/swimming-pool.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="59.0" layoutY="34.0" text="Welcome to the BLUE OCEAN HOTEL ">
+         <font>
+            <Font name="Bell MT Bold" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="372.0" layoutY="72.0" text="(Try once to feel difference)" />
+      <JFXTextArea layoutX="398.0" layoutY="116.0" prefHeight="348.0" prefWidth="481.0" style="-fx-background-color: #46B2E0;" text="     Our Original Home Of Sri Lankan Hospitality&#10;       Ayubowan! (May you live long)&#10;&#10;&#10;&#10;&#10;Nearly half a Century ago,Our Legendary brand of hospitality was born on this very coastline.From the warm&#10;hearts of sri lankan family,the values of passion,humanity&#10;intergrity and tenacity were brought to life in a charming beachside villa that has since inspired a world wide luxury spread across our tropical isle.&#10;&#10;It all began here- at our original home of sri lankan hospitality.The home in which we welcome the world as part of our family&#10;" />
+      <JFXTextArea layoutX="26.0" layoutY="421.0" prefHeight="173.0" prefWidth="216.0" style="-fx-background-color: #46B2E0;" text="Hotline  : 0112332333" />
+      <ImageView fitHeight="80.0" fitWidth="109.0" layoutX="119.0" layoutY="506.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/outline_hotel_class_black_24dp.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="88.0" layoutY="508.0" text="BOH">
+         <font>
+            <Font name="Rockwell Extra Bold" size="24.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="814.0" layoutY="19.0" onAction="#HomeOnAction" style="-fx-background-color: #46B2E0;" text="Home&gt;&gt;">
+         <effect>
+            <InnerShadow />
+         </effect>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="ReserveContext" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ReserveRoomFormController">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="908.0" layoutX="-1.0" layoutY="-7.0" pickOnBounds="true">
+         <image>
+            <Image url="@../assets/aerial-view-kelingking-beach-nusa-penida-island-bali-indonesia.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton layoutX="233.0" layoutY="129.0" onAction="#ReserveRoomOnAction" text="Reserve a Room">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="233.0" layoutY="190.0" onAction="#cRoomAvailabilityOnAction" text="Check Room Availability">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <ImageView fitHeight="33.0" fitWidth="46.0" layoutX="175.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/outline_chevron_right_black_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="33.0" fitWidth="46.0" layoutX="175.0" layoutY="196.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/outline_chevron_right_black_24dp.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="64.0" fitWidth="92.0" layoutX="820.0" layoutY="520.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/outline_hotel_class_black_24dp.png" />
+         </image>
+      </ImageView>
+      <Text layoutX="796.0" layoutY="537.0" strokeType="OUTSIDE" strokeWidth="0.0" text="BOH">
+         <font>
+            <Font name="Rockwell Condensed Bold" size="28.0" />
+         </font>
+      </Text>
+      <Button layoutX="811.0" layoutY="23.0" mnemonicParsing="false" onAction="#HomeButtonOnAction" style="-fx-background-color: #70a1ff;" text="Home&gt;&gt;" />
+   </children>
+</AnchorPane>
